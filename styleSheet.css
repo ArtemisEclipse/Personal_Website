@@ -61,7 +61,7 @@ nav ul li:hover{
     font-family: 'Teko' , sans-serif;
 }
 .hero-img{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/Images/HeroImage2.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./Images/HeroImage2.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
