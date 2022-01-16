@@ -23,6 +23,37 @@ footer{
     margin-bottom: 0px;
     font-family: 'Raleway', sans-serif;
 }
+nav{
+    font-size: 24px;
+    background: rgb(0, 0, 7);
+    font-family: 'Exo' , sans-serif;    
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav ul li{
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    cursor: pointer;
+    transition: .5s;
+    padding: 10px;
+    color: orangered;
+}
+nav ul li a{
+    text-decoration: none;
+    color: inherit;
+    transition: .5s;
+}
+nav ul li:hover{
+    background: rgba(8, 253, 8, 0.459);
+}
+@media screen and (max-width: 600px) {
+    nav ul{
+        flex-direction: column;
+    }
+}
 /* Home */
 .intro h1{
     color:orangered;
@@ -51,6 +82,49 @@ footer{
     text-align: center;
     color: orangered;
 }
+.intro{
+    grid-column: 1 / span 3;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0px 3px 5px 0px rgba(89, 90, 89, 0.856);
+    background: rgba(1, 1, 14, 0.315);
+    border: 1px palegreen solid;
+    border-radius: 10px;
+}
+.nav-home ul{
+    flex-direction: column;
+    border: yellowgreen groove;
+    background: rgba(1, 1, 14, 0.288);
+    align-content: center;
+}
+.nav-home ul .li-container:hover{
+    box-shadow: 0px 4px 10px 0px yellowgreen;
+    background: rgb(1, 1, 14);
+}
+.nav-home ul li:hover{
+    background: rgba(1, 1, 14, 0.288);
+}
+.li-container{
+    border: 2px orange solid;
+    box-shadow: 0px 2px 6px 0px palegreen;
+    border-radius: 10px;
+    padding: 15px;
+    transition: .5s;
+    align-content: center;
+}
+.nav-home{
+    background: rgba(1, 1, 14, 0.479);
+    grid-column-start: 2;
+    align-items: center;
+}
+.nav-home ul li p{
+    font-size: 20px;
+}
+.nav-home h3{
+    text-decoration: underline;
+}
+
 /*About Me */
 .top{
     font-size: 72px;
