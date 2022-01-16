@@ -7,7 +7,7 @@
 body,html{
     height: 100vh;
     font-family: sans-serif;
-    background: rgb(0, 0, 255);
+    background: #7108F7;
 }
 footer{
     display: grid;    
@@ -16,10 +16,10 @@ footer{
     background: rgba(0, 0, 22);
 }
 .foot{
-    color: orangered;
-    border: 1px solid palegreen;
+    color: #F77108;
+    border: 1px solid #08F771;
     padding: 5px;
-    box-shadow:0px 1px 2px 0px orangered;
+    box-shadow:0px 1px 2px 0px #F77108;
     margin-bottom: 0px;
     font-family: 'Raleway', sans-serif;
 }
@@ -39,7 +39,7 @@ nav ul li{
     cursor: pointer;
     transition: .5s;
     padding: 10px;
-    color: orangered;
+    color: #F77108;
 }
 nav ul li a{
     text-decoration: none;
@@ -56,7 +56,7 @@ nav ul li:hover{
 }
 /* Home */
 .intro h1{
-    color:orangered;
+    color:#F77108;
     font-size: 72px;
     font-family: 'Teko' , sans-serif;
 }
@@ -80,7 +80,7 @@ nav ul li:hover{
     font-size: 32px;
     align-content: center;
     text-align: center;
-    color: orangered;
+    color: #F77108;
 }
 .intro{
     grid-column: 1 / span 3;
@@ -89,17 +89,17 @@ nav ul li:hover{
     text-align: center;
     box-shadow: 0px 3px 5px 0px rgba(89, 90, 89, 0.856);
     background: rgba(1, 1, 14, 0.315);
-    border: 1px palegreen solid;
+    border: 1px #08F771;
     border-radius: 10px;
 }
 .nav-home ul{
     flex-direction: column;
-    border: yellowgreen groove;
+    border: #08F771;
     background: rgba(1, 1, 14, 0.288);
     align-content: center;
 }
 .nav-home ul .li-container:hover{
-    box-shadow: 0px 4px 10px 0px yellowgreen;
+    box-shadow: 0px 4px 10px 0px #08F771;
     background: rgb(1, 1, 14);
 }
 .nav-home ul li:hover{
@@ -107,7 +107,7 @@ nav ul li:hover{
 }
 .li-container{
     border: 2px orange solid;
-    box-shadow: 0px 2px 6px 0px palegreen;
+    box-shadow: 0px 2px 6px 0px #08F771;
     border-radius: 10px;
     padding: 15px;
     transition: .5s;
@@ -128,11 +128,11 @@ nav ul li:hover{
 /*About Me */
 .top{
     font-size: 72px;
-    color: orangered;
+    color: #F77108;
     font-style: italic;
     text-align: center;
     text-decoration: underline;
-    text-shadow: 0 0 4px palegreen;
+    text-shadow: 0 0 4px #08F771;
     grid-column: 1 / 4;
     grid-row: 1;
     font-family: 'Teko' , sans-serif;
@@ -147,13 +147,13 @@ nav ul li:hover{
 }
 .about-grid h2{
     font-size: 48px;
-    color: rgb(204, 99, 0);
+    color: #F77108;
     text-shadow: 0 0 5px rgb(182, 124, 120);
     font-family: 'Raleway' , sans-serif;
 }
 .about-grid p{
     font-size: 24px;
-    color: rgb(41, 204, 0);
+    color: #F77108;
     border-style: ridge;
     padding: 10px;
     border-color: rgb(85, 41, 129);
@@ -181,8 +181,8 @@ nav ul li:hover{
 }
 
 .top-btn{
-    background-color:  rgba(51, 255, 0, 0.603);
-    border: 4px orangered;
+    background-color:  #08F771;
+    border: 4px #F77108;
     border-style: groove;
     border-radius: 10px;
     height: 50px;
@@ -195,7 +195,7 @@ nav ul li:hover{
     font-family: 'Oswald' , sans-serif;
 }
 .top-btn:hover{
-    box-shadow: 0px 2px 4px 0px palegreen;
+    box-shadow: 0px 2px 4px 0px #08F771;
 }
 .top-btn:visited{
     color: black;
@@ -214,18 +214,18 @@ nav ul li:hover{
 }
 .project-grid #projects{
     font-size: 72px;
-    color: orangered;
+    color: #F77108;
     font-style: italic;
     text-align: center;
     text-decoration: underline;
-    text-shadow: 0 0 4px palegreen;
+    text-shadow: 0 0 4px #08F771;
     grid-column: 1 / 4;
     grid-row: 1;
     font-family: 'Teko' , sans-serif;
 }
 .project-grid #card-title{
     font-size: 48px;
-    color: orangered;
+    color: #F77108;
     text-align: center;
 }
 #site{
@@ -241,10 +241,10 @@ nav ul li:hover{
     grid-column: 3/4;
 }
 .card{
-    box-shadow: 0px 4px 8px 0px palegreen;
+    box-shadow: 0px 4px 8px 0px #08F771;
     text-align: center;
     transition: 1s;
-    color: orangered;
+    color: #F77108;
     padding: 10px;
     font-size: 20px;
     font-family: 'Raleway' , sans-serif;
@@ -281,17 +281,17 @@ nav ul li:hover{
 }
 .contact-grid #contact_links{
     font-size: 72px;
-    color: orangered;
+    color: #F77108;
     font-style: italic;
     text-align: center;
     text-decoration: underline;
-    text-shadow: 0 0 4px palegreen;
+    text-shadow: 0 0 4px #08F771;
     grid-row: 1;
     font-family: 'Teko' , sans-serif;
 }
 .contact-info{
     display: grid;
-    border: 2px orange groove;
+    border: 2px #F77108 groove;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 100px 1fr;
     row-gap: 75px;
@@ -327,25 +327,25 @@ nav ul li:hover{
     grid-column: 1;
 }
 .contact-grid p{
-    color: orangered;
+    color: #F77108;
     padding: 10px;
     font-size: 20px;
     font-family: 'Raleway' , sans-serif;
 }
 .contact-grid a{
     padding: 5px 10px;
-    border: 4px rgb(43, 255, 0);
+    border: 4px #08F771;
     border-style: groove;
     border-radius: 10px;
     font-size: 24px;
     transition: .5s;
     text-align: center;
     text-decoration: none;
-    color: orange;
-    box-shadow: 0px 2px 4px 0px orange;
+    color: #F77108;
+    box-shadow: 0px 2px 4px 0px #F77108;
     transition: .5s;
     font-family: 'Oswald' , sans-serif;
 }
 .contact-grid a:hover{
-    box-shadow: 0px 4px 8px 0px orange;
+    box-shadow: 0px 4px 8px 0px #F77108;
 }
