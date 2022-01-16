@@ -212,7 +212,7 @@ nav ul li:hover{
     padding: 30px;
     justify-content: center;
 }
-.project-grid h2{
+.project-grid #projects{
     font-size: 72px;
     color: orangered;
     font-style: italic;
@@ -274,7 +274,7 @@ nav ul li:hover{
     padding: 30px;
     justify-content: center;
 }
-.contact-grid h2{
+.contact-grid #contact_links{
     font-size: 72px;
     color: orangered;
     font-style: italic;
