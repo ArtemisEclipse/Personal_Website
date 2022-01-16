@@ -330,7 +330,6 @@ nav ul li:hover{
     grid-column: 1;
 }
 .linkedin img{
-    size: 1px;
     grid-row: 4;
     grid-column: 1;
 }
