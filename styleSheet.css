@@ -313,6 +313,10 @@ nav ul li:hover{
     grid-row: 3;
     grid-column: 2;
 }
+.linkedin{
+    grid-row: 4;
+    grid-column: 2;
+}
 .personal-email img{
     grid-row: 1;
     grid-column: 1;
@@ -323,6 +327,11 @@ nav ul li:hover{
 }
 .twitter img{
     grid-row: 3;
+    grid-column: 1;
+}
+.linkedin img{
+    size: 1px;
+    grid-row: 4;
     grid-column: 1;
 }
 .contact-grid p{
