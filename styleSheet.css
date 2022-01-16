@@ -223,6 +223,14 @@ nav ul li:hover{
     grid-row: 1;
     font-family: 'Teko' , sans-serif;
 }
+.project-grid #card-title{
+    font-size: 48px;
+    color: orangered;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 0 0 4px palegreen;
+}
 #site{
     grid-row: 3;
     grid-column: 1 /2;
