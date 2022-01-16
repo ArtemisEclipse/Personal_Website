@@ -227,7 +227,6 @@ nav ul li:hover{
     font-size: 48px;
     color: orangered;
     text-align: center;
-    text-shadow: 0 0 4px palegreen;
 }
 #site{
     grid-row: 3;
