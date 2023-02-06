@@ -7,7 +7,7 @@
 body,html{
     height: 100vh;
     font-family: sans-serif;
-    background: #eae8ee;
+    background: #656565;
 }
 footer{
     display: grid;    
@@ -17,7 +17,7 @@ footer{
 }
 .foot{
     color: #f6f3f1;
-    border: 1px solid #08F771;
+    border: 1px solid #ffffff;
     padding: 5px;
     box-shadow:0px 1px 2px 0px #F77108;
     margin-bottom: 0px;
@@ -56,12 +56,12 @@ nav ul li:hover{
 }
 /* Home */
 .intro h1{
-    color:#F77108;
+    color:#fdfefe;
     font-size: 72px;
     font-family: 'Teko' , sans-serif;
 }
 .hero-img{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./Images/HeroImage2.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./Images/HeroImage.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -80,7 +80,7 @@ nav ul li:hover{
     font-size: 32px;
     align-content: center;
     text-align: center;
-    color: #F77108;
+    color: #fffdfc;
 }
 .intro{
     grid-column: 1 / span 3;
@@ -89,25 +89,25 @@ nav ul li:hover{
     text-align: center;
     box-shadow: 0px 3px 5px 0px rgba(89, 90, 89, 0.856);
     background: rgba(1, 1, 14, 0.315);
-    border: 1px #08F771;
+    border: 1px #f6f6f6;
     border-radius: 10px;
 }
 .nav-home ul{
     flex-direction: row;
-    border: #08F771;
+    border: #262626;
     background: rgba(1, 1, 14, 0.288);
     align-content: center;
 }
 .nav-home ul .li-container:hover{
-    box-shadow: 0px 4px 10px 0px #08F771;
+    box-shadow: 0px 4px 10px 0px #dadfdc;
     background: rgb(1, 1, 14);
 }
 .nav-home ul li:hover{
     background: rgba(1, 1, 14, 0.288);
 }
 .li-container{
-    border: 2px orange solid;
-    box-shadow: 0px 2px 6px 0px #08F771;
+    border: 2px rgb(0, 0, 0) solid;
+    box-shadow: 0px 2px 6px 0px #c8cecb;
     border-radius: 10px;
     padding: 15px;
     transition: .5s;
@@ -128,11 +128,11 @@ nav ul li:hover{
 /*About Me */
 #about_me{
     font-size: 72px;
-    color: #F77108;
+    color: #070707;
     font-style: italic;
     text-align: center;
     text-decoration: underline;
-    text-shadow: 0 0 4px #08F771;
+    text-shadow: 0 0 4px #f6f6f6;
     grid-column: 1 / 4;
     grid-row: 1;
     font-family: 'Teko' , sans-serif;
@@ -147,16 +147,16 @@ nav ul li:hover{
 }
 .about-grid h2{
     font-size: 48px;
-    color: #F77108;
-    text-shadow: 0 0 5px rgb(182, 124, 120);
+    color: #000000;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
     font-family: 'Raleway' , sans-serif;
 }
 .about-grid p{
     font-size: 24px;
-    color: #F77108;
+    color: #080808;
     border-style: ridge;
     padding: 10px;
-    border-color: rgb(85, 41, 129);
+    border-color: rgb(10, 9, 10);
     border-radius: 5px;
     font-family: 'Raleway' , sans-serif;
 }
@@ -180,8 +180,8 @@ nav ul li:hover{
 
 
 .top-btn{
-    background-color:  #08F771;
-    border: 4px #F77108;
+    background-color:  #656565;
+    border: 4px #f9f8f7;
     border-style: groove;
     border-radius: 10px;
     height: 50px;
@@ -194,7 +194,7 @@ nav ul li:hover{
     font-family: 'Oswald' , sans-serif;
 }
 .top-btn:hover{
-    box-shadow: 0px 2px 4px 0px #08F771;
+    box-shadow: 0px 2px 4px 0px #ffffff;
 }
 .top-btn:visited{
     color: black;
@@ -213,18 +213,18 @@ nav ul li:hover{
 }
 .project-grid #projects{
     font-size: 72px;
-    color: #F77108;
+    color: #040404;
     font-style: italic;
     text-align: center;
     text-decoration: underline;
-    text-shadow: 0 0 4px #08F771;
+    text-shadow: 0 0 4px #f9f9f9;
     grid-column: 1 / 4;
     grid-row: 1;
     font-family: 'Teko' , sans-serif;
 }
 .project-grid #card-title{
     font-size: 48px;
-    color: #F77108;
+    color: #fffcfc;
     text-align: center;
 }
 #site{
@@ -240,10 +240,10 @@ nav ul li:hover{
     grid-column: 3/4;
 }
 .card{
-    box-shadow: 0px 4px 8px 0px #08F771;
+    box-shadow: 0px 4px 8px 0px #f4f4f4;
     text-align: center;
     transition: 1s;
-    color: #F77108;
+    color: #030303;
     padding: 10px;
     font-size: 20px;
     font-family: 'Raleway' , sans-serif;
@@ -280,17 +280,17 @@ nav ul li:hover{
 }
 .contact-grid #contact_links{
     font-size: 72px;
-    color: #F77108;
+    color: #020202;
     font-style: italic;
     text-align: center;
     text-decoration: underline;
-    text-shadow: 0 0 4px #08F771;
+    text-shadow: 0 0 4px #ffffff;
     grid-row: 1;
     font-family: 'Teko' , sans-serif;
 }
 .contact-info{
     display: grid;
-    border: 2px #F77108 groove;
+    border: 2px #070707 groove;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 100px 1fr;
     row-gap: 75px;
@@ -334,25 +334,25 @@ nav ul li:hover{
     grid-column: 1;
 }
 .contact-grid p{
-    color: #F77108;
+    color: #000000;
     padding: 10px;
     font-size: 20px;
     font-family: 'Raleway' , sans-serif;
 }
 .contact-grid a{
     padding: 5px 10px;
-    border: 4px #08F771;
+    border: 4px #000000;
     border-style: groove;
     border-radius: 10px;
     font-size: 24px;
     transition: .5s;
     text-align: center;
     text-decoration: none;
-    color: #F77108;
-    box-shadow: 0px 2px 4px 0px #F77108;
+    color: #000000;
+    box-shadow: 0px 2px 4px 0px #fdfdfd;
     transition: .5s;
     font-family: 'Oswald' , sans-serif;
 }
 .contact-grid a:hover{
-    box-shadow: 0px 4px 8px 0px #F77108;
+    box-shadow: 0px 4px 8px 0px #f5f4f3;
 }
